@@ -1,0 +1,14 @@
+InventorSignatureAddIn/
+├── src/                          # 源代码目录
+│   ├── InventorSignatureAddIn.csproj
+│   ├── Program.cs
+│   ├── SignatureManager.cs
+│   ├── SignatureRibbon.cs
+│   ├── AuthenticationForm.cs
+│   └── Properties/
+│       └── AssemblyInfo.cs
+├── docs/                         # 文档目录
+│   └── README.md
+├── .gitignore                    # Git忽略文件
+├── LICENSE                       # 许可证文件
+└── README.md                     # 项目说明文件
