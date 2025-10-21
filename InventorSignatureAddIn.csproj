@@ -1,1 +1,22 @@
 
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>           <!-- 输出类型：类库 -->
+    <TargetFramework>net6.0</TargetFramework>  <!-- 目标框架：.NET 6.0 -->
+    <UseWindowsForms>true</UseWindowsForms>    <!-- 启用Windows窗体 -->
+    <ImplicitUsings>enable</ImplicitUsings>    <!-- 启用隐式using -->
+    <Nullable>enable</Nullable>                <!-- 启用可空引用类型 -->
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>Inventor签名插件</AssemblyTitle>
+    <AssemblyDescription>Autodesk Inventor 2021 电子签名插件</AssemblyDescription>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>版权所有 © 2024</Copyright>
+  </PropertyGroup>
+
+  <!-- NuGet包引用 -->
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="System.Windows.Forms" Version="6.0.2" />
+  </ItemGroup>
+</Project>
